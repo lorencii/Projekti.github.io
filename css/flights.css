@@ -1,0 +1,235 @@
+body{
+    background: url(backi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 15px;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a:hover{
+  background:white;
+  color:#367aae;
+  border-radius:4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+}
+
+#logoja1{
+  width: 160px;
+  height: 100px;
+}
+.flutur{
+  display:flex;
+  flex-direction: column;
+  background:#ebebeb;
+  height:700px;
+  width:1000px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+   border-radius: 10px;
+   margin-left: 200px;
+   margin-top:30px;
+}
+
+.from{
+  background:white;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  height:50px;
+  width:300px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  display:flex;
+
+}
+#sht{
+  border:none;
+  border-radius: 10px;
+  width:300px;
+      font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.to{
+  background:white;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  height:50px;
+  width:300px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  display:flex;
+
+}
+.data{
+    background:white;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  height:50px;
+  width:160px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  display:flex;
+
+
+}
+.searchi{
+    background-color: #367aae;
+  background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(54,122,160,1) 0%);  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  height:50px;
+  width:190px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  display:flex;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 100%;
+  outline: 0;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.nishi{
+  display:flex;
+  flex-direction: row;
+}
+.dyshi{
+  display:flex;
+  flex-direction: row;
+}
+.filtri{
+  display:flex;
+  flex-direction: column;
+    background:white;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  height:600px;
+  width:300px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+}
+.tiketa{
+    display:flex;
+    flex-direction: column;
+    background:white;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+  height:600px;
+  width:900px;
+  border-radius: 10px;
+  margin-left:10px;
+  margin-top: 10px;
+  margin-right:10px;  
+}
+#pl1{
+      font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:30px;
+  color:#367aae;
+
+}
+.fl1{
+        font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color:#367aae;
+    width:100%;
+    margin-left:5px;
+
+}
+.rd4{
+  border-bottom:1px solid gray;
+
+}
+.rd55{
+    border-bottom:1px solid gray;
+}
+.butonin{
+    background-color: #367aae;
+  background: linear-gradient(90deg, rgba(230,230,230,1) 0%, rgba(54,122,160,1) 0%);  border: 1px solid #2A8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 5px;
+  outline: 0;
+  padding:20px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 30px;
+}
