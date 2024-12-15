@@ -1,0 +1,191 @@
+body {
+        font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 15px;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a:hover{
+  background:white;
+  color:#367aae;
+  border-radius:4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+}
+
+#logoja1{
+  width: 160px;
+  height: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #0044cc;
+    color: #fff;
+}
+
+.navbar .logo a {
+    font-size: 24px; 
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar .cta-btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 8px 16px; 
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.sektori1 {
+    background: url('carcar.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 80px 32px; 
+}
+
+.sektori1 h1 {
+    font-size: 40px; 
+    margin-bottom: 16px; 
+}
+
+.sektori1 p {
+    font-size: 19.2px; 
+    margin-bottom: 32px; 
+}
+
+.sektori1 .sektori1-btn {
+    background-color: #ffcc00;
+    border: none;
+    padding: 11.2px 24px; 
+    border-radius: 5px;
+    font-size: 16px; 
+    font-weight: 700;
+    color: #0044cc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rent-section {
+    padding: 32px; 
+    background-color: #fff;
+    text-align: center;
+}
+
+.rent-section h2 {
+    font-size: 32px; 
+    margin-bottom: 24px; 
+}
+
+.rental-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.form-group label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px; 
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-btn {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 11.2px; 
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer;
+}
+
+.features-section {
+    padding: 32px; 
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 32px; 
+    margin-bottom: 24px; 
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px; 
+}
+
+.feature {
+    background-color: #fff;
+    padding: 16px; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    margin-bottom: 8px; 
+}
+
+footer {
+    background-color: #0044cc;
+    color: #fff;
+    text-align: center;
+    padding: 16px; 
+}
+
+footer .footer-links {
+    margin-bottom: 16px; 
+}
+
+footer .footer-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 8px; 
+    font-size: 14.4px; 
+}
