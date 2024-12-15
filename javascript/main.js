@@ -33,10 +33,8 @@ function prevSlide() {
   showSlide(currentIndex);
 }
 
-// Automatic slide transition every 3 seconds
 setInterval(() => {
   nextSlide();
 }, 3000);
 
-// Initialize the first slide
 showSlide(currentIndex);
