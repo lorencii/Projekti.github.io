@@ -18,7 +18,7 @@ li a{
 	  font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-style: normal;
-	padding:10px;
+  padding: 10px;
 }
 a:hover{
 	background:white;
@@ -93,12 +93,53 @@ a:hover{
 	text-shadow: 2px 2px 5px #367aae ;
 	margin-left: 10px;
 }
-.ajroo{
-	display: flex;
-	width: 720px;
-	height: 280px;
-	position: relative;
-	left:530px;
-	bottom: 230px;
+
+.slider-container {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+    display: flex;
+  width: 400px;
+  height: 280px;
+  position: relative;
+  left:200px;
+  bottom: 330px;
+  border-radius: 10px;
 }
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  max-width: 100%;
+  display: block;
+}
+
+#butoniii {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#butoniii:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
 
