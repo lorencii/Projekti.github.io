@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/feedback.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <title>Kosova Airlines</title>
+</head>
+<body>
+        <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="css/logo.png" id="logoja1">
+            </div>
+    <ul>
+        <li>
+            <a href=index.html>Home</a>
+            <a href=register.html>Register</a>
+            <a href=flights.html>Flights</a>
+            <a href=about.html>About Us</a>
+            <a href="rent.html">Rent a Car</a>
+                                    <a href="services.html">Services</a>
+                        <a href="feedback.html">Feedback</a>
+
+
+        </li>
+    </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Feedback - Kosova Airlines</h1>
+        <form>
+            <div class="form-section">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Type your name" required>
+            </div>
+
+            <div class="form-section">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" placeholder="Type your surname" required>
+            </div>
+
+            <div class="form-section">
+                <label for="company">Choose your airline company:</label>
+                <select id="company">
+                    <option value="wizzair">Wizz Air</option>
+                    <option value="pegasus">Pegasus</option>
+                    <option value="turkish">Turkish Airlines</option>
+                    <option value="kosova">Kosova Airlines</option>
+                    <option value="airalbania">Air Albania</option>
+                    <option value="easyjet">EasyJet</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="visits">Number of visits(1-10):</label>
+                <select id="visits">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+
+            <div class="form-section">
+                <label for="rating">Rate your experience:</label>
+                <div class="stars">
+                    <input type="radio" id="star5" name="rating" value="1">
+                    <label for="star5" class="star">&#9733;</label>
+
+                    <input type="radio" id="star4" name="rating" value="2">
+                    <label for="star4" class="star">&#9733;</label>
+
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3" class="star">&#9733;</label>
+
+                    <input type="radio" id="star2" name="rating" value="4">
+                    <label for="star2" class="star">&#9733;</label>
+
+                    <input type="radio" id="star1" name="rating" value="5">
+                    <label for="star1" class="star">&#9733;</label>
+                </div>
+            </div>
+            <button type="submit">Send Feedback</button>
+        </form>
+    </div>
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
+
